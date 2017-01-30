@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <style>
+            body { font-family: arial,helvetica; }
+        </style>
+    </head>
+    <body>
+        <h2>How this stuff works?</h2>
+        This software is for testing and fixing (symptomatic treatment) flash drives with bad sectors.
+        It fills the disk with small random files, and then it reads those back. If a file's content has not been damaged, the software removes that file.
+        If a file is corrupted, then it will be kept there, and therefore that block of flash memory will be blocked from being used for useful content.
+        <br/> <br/>
+        This way you can use your mp3 player again without hearing glitches in your file in theory. 
+        In practice: who knows?:) But don't trust any drives with your important data that has badsectors, neither do it after you ran this application on it.
+        <br/> <br/>
+        
+        Use this on your own risk only.
+
+
+        <br/> <br/>
+        This app operates in three phases:
+        <ol>
+            <li>File creation</li>
+            <li>Waiting for you to remount your drive (detach, unplug, replug...)</li>
+            <li>Reading the files back</li>
+        </ol>
+
+
+        <br/><br/><hr/>
+        <div align="center" style='color:gray;'>Kopiás Csaba - csaba at-sign-here kopias dot net - 2010</div>
+    </body>
+</html>
